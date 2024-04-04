@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+.pms-form {
+    width: 70%;
+    margin: 2rem auto 0;
+    display: none;
+}
+
+.pms-form-header {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem 0;
+}
+
+.pms-form-header .left {
+    display: flex;
+}
+
+.pms-form-header input[type=search] {
+    border: 1px solid gray;
+}
+
+.pms-table {
+    width: 100%;
+}
+
+.pms-table .pms-title, .pms-table th {
+    text-align: center;
+}
+
+.pms-table .pms-text {
+    padding-left: 0.4rem;
+}
+
+.pms-table input[type="radio"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 5rem;
+    border: 1px solid #7c7b7b;
+    cursor: pointer;
+    margin: 0.3rem;
+}
+
+.pms-table label {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.pms-table textarea {
+    outline: none;
+    border: none;
+    height: 1.5rem;
+    padding-left: 0.4rem;
+}
+
+#quarterDropdown{
+    width: 300px;
+}
+
+#legend{
+    margin-top: -1rem;
+}
+
+#ok, #not-ok, #none {
+    cursor: pointer;
+}
+
+.is-valid {
+    border-color: #28a745;
+}
+
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.na-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vertical-center {
+    vertical-align: middle;
+}
+
+.table-radio-val-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea-cont textarea {
+    width: 100%;
+}
+
+.asset-id-input {
+    padding: 0 0.2rem;
+}
